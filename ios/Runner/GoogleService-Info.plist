@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>77790721549-1jst49rh2hed1lk6ov791j01ichli9ok.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.77790721549-1jst49rh2hed1lk6ov791j01ichli9ok</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCRCOxBZ6clPhNui2--2_147s6XrY1fkNM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>77790721549</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.thesylvest.sylvest</string>
+	<key>PROJECT_ID</key>
+	<string>sylvest-af882</string>
+	<key>STORAGE_BUCKET</key>
+	<string>sylvest-af882.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:77790721549:ios:aa5af0708d0b4043a78744</string>
+</dict>
+</plist>
