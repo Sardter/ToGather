@@ -42,15 +42,19 @@ You are able to befriend a user by sending or accepting a friendship request.
 
 Here you are able to view the details of the communities. This details include the number of members, hosted events, and attendee number of those events alongside a description of the community, average rating of its events, and its members with their respective roles. You can also view events and posts of the community here.
 
-<img src="./preview_photos/club_page_1.png" height="640" width="320" alt="Community Page 1">
-<img src="./preview_photos/club_page_2.png" height="640" width="320" alt="Community Page 2">
+<p float="left">
+    <img src="./preview_photos/club_page_1.png" height="640" width="320" alt="Community Page 1">
+    <img src="./preview_photos/club_page_2.png" height="640" width="320" alt="Community Page 2">
+</p>
 
 ## Event Page
 
 Here you are able to view the details of the events. This details include the number of attendees, alongside a description of the event, average rating provided by the users, location, and the date of the event. You can also view user posts and event media.
 
-<img src="./preview_photos/event_page_1.png" height="640" width="320" alt="Event Page 1">
-<img src="./preview_photos/event_page_2.png" height="640" width="320" alt="Event Page 2">
+<p float="left">
+    <img src="./preview_photos/event_page_1.png" height="640" width="320" alt="Event Page 1">
+    <img src="./preview_photos/event_page_2.png" height="640" width="320" alt="Event Page 2">
+</p>
 
 ## Post Page
 
@@ -69,5 +73,3 @@ You are able to rate posts and events that you have attended.
 You can view different users' pages and edit your own from this page.
 
 <img src="./preview_photos/profile.png" height="640" width="320" alt="Profile">
-
-
