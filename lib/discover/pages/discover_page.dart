@@ -59,7 +59,6 @@ class _DiscoverPageState extends State<DiscoverPage>
         .map((e) => MapEventMarker.fromEvent(e))
         .toList();
     _markers.addEntries(_events.map((e) => MapEntry(e.hash!, e)));
-    if (mounted) setState(() {});
   }
 
   Future<void> _getClubs() async {
@@ -72,7 +71,6 @@ class _DiscoverPageState extends State<DiscoverPage>
         .map((e) => MapClubMarker.fromClub(e))
         .toList();
     _markers.addEntries(_clubs.map((e) => MapEntry(e.hash!, e)));
-    if (mounted) setState(() {});
   }
 
   Future<void> _getPlaces() async {
@@ -85,7 +83,6 @@ class _DiscoverPageState extends State<DiscoverPage>
         .map((e) => MapPlaceMarker(place: e))
         .toList();
     _markers.addEntries(_places.map((e) => MapEntry(e.hash!, e)));
-    if (mounted) setState(() {});
   }
 
   Future<void> _getPosts() async {
@@ -98,7 +95,6 @@ class _DiscoverPageState extends State<DiscoverPage>
         .map((e) => MapPostMarker(post: e))
         .toList();
     _markers.addEntries(_posts.map((e) => MapEntry(e.hash!, e)));
-    if (mounted) setState(() {});
   }
 
   Future<void> _getUsers() async {
@@ -111,7 +107,6 @@ class _DiscoverPageState extends State<DiscoverPage>
         .map((e) => MapUserMarker(user: e))
         .toList();
     _markers.addEntries(_users.map((e) => MapEntry(e.hash!, e)));
-    if (mounted) setState(() {});
   }
 
   Future<void> _getMarkers() async {
@@ -140,9 +135,9 @@ class _DiscoverPageState extends State<DiscoverPage>
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((timeStamp) {
       _getItems();
-      /* _timer = Timer.periodic(Duration(seconds: 15), (Timer timer) async {
+      _timer = Timer.periodic(Duration(seconds: 15), (Timer timer) async {
         await _getItems();
-      }); */
+      });
     });
   }
 

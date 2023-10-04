@@ -15,7 +15,7 @@ import 'package:ToGather/utilities/utilities.dart';
 enum ModelServiceFactoryMode { Test, API }
 
 class ModelServiceFactory {
-  static ModelServiceFactoryMode get mode => ModelServiceFactoryMode.API;
+  static ModelServiceFactoryMode get mode => ModelServiceFactoryMode.Test;
 
   static EventModelService get EVENT => mode == ModelServiceFactoryMode.Test
       ? EventTestModelService()
@@ -26,7 +26,7 @@ class ModelServiceFactory {
       : PlaceAPIModelService();
 
   static ProfileModelService get PROFILE => mode == ModelServiceFactoryMode.Test
-      ? ModelServiceFactory.PROFILE
+      ? ProfileTestModelService()
       : ProfileAPIModelService();
 
   static PostModelService get POST => mode == ModelServiceFactoryMode.Test
@@ -67,12 +67,12 @@ class ModelServiceFactory {
 
   static ModelService<RatedUser> get RATEDPROFILE =>
       mode == ModelServiceFactoryMode.Test
-          ? ModelServiceFactory.RATEDPROFILE
+          ? RatedProfileTestModelService()
           : RatedProfileAPIModelService();
 
   static ProfileModelService get RECIVED_CONNECTIONS =>
       mode == ModelServiceFactoryMode.Test
-          ? ModelServiceFactory.PROFILE
+          ? ProfileTestModelService()
           : ProfileRecievedConnectionsAPIModelService();
 
   static ProfileModelService get SENT_CONNECTIONS =>
