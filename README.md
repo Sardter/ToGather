@@ -73,3 +73,35 @@ You are able to rate posts and events that you have attended.
 You can view different users' pages and edit your own from this page.
 
 <img src="./preview_photos/profile.png" height="640" width="320" alt="Profile">
+
+
+## Installation and Running
+
+### Prerequisites
+
+Before you can run this project, make sure you have the following installed:
+
+- [Flutter](https://flutter.dev/docs/get-started/install)
+
+### Installation
+
+Clone this repository to your local machine:
+
+```bash
+git clone https://github.com/Sardter/ToGather
+```
+Change the working directory to the project folder:
+
+```bash
+cd ToGather
+```
+
+Install Flutter dependencies:
+```bash
+flutter pub get
+```
+
+To run the Flutter project on your local machine, use the following command:
+```bash
+flutter run
+```
